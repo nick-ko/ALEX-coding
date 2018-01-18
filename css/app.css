@@ -1,0 +1,230 @@
+*{box-sizing:border-box;}
+body{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.topbar{
+	display:block;
+	width:100%;
+	height:50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #FFF;
+	background-color: #5AD4BC;
+}
+
+.bar{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.compagny-name{
+	position:absolute;
+	top: 0;
+	left:0;
+	vertical-align:top;
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	float: left;
+	color: #FFF;
+	line-height: 50px;
+	padding-left: 25px;
+	font-size: 28px;
+	font-weight: 400;
+}
+
+.top-menu{
+	position:absolute;
+	top: 0;
+	right:0;
+	vertical-align:top;
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	float: right;
+	line-height: 50px;
+}
+
+.top-menu ul{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.top-menu ul li{
+	display: block;
+	width: 45%;
+	height: 100%;
+	float: left;
+	list-style: none;
+	border-right: 1px dashed #fff;
+}
+
+.top-menu ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	text-align: center;
+}
+
+.top-menu ul li a:hover{
+	background-color: #27AE61;
+	color: #5AD4BC;
+}
+
+.active{
+	background-color: #27AE61;
+}
+
+.top-menu ul li:last-child{
+	text-align: right;
+	border-right: none;
+}
+
+.connect-page{
+	position: absolute;
+	top:100px;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.form-title{
+	display: block;
+	width: 450px;
+	height: 25px;
+	margin: 0 auto;
+	font-size: 30px;
+	font-weight: bold;
+	color: #981066;
+	text-transform: uppercase;
+}
+
+.form-content{
+	display: block;
+	width: 650px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.form-group{
+	display: block;
+	width: 100%;
+	height: 95px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="mail"], input[type="tel"]{
+	display: block;
+	width: 100%;
+	height: 62px;
+	border-radius: 5px;
+	border:1px dashed #3897D9;
+	background-color: #F2F1EF;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	color: #3F3F3F;
+	font-weight: 400;
+	font-size:18px;
+}
+
+input[type="submit"]{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	border:none;
+	margin-top: 20px;
+	cursor: pointer;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	background-color: #3897D9;
+	color: #FEFEFE;
+	font-weight: 400;
+	font-size:18px;
+}
+
+label{
+	display: block;
+	width: 100%;
+	height: 15px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #09557A;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+form{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.forget-mdp{
+	display: block;
+	float:right;
+	width: 195px;
+	height: 50px;
+	margin-top: 15px;
+}
+
+.signUp-message{
+	display: block;
+	width: 100%;
+	height: 50px;
+	font-size: 13px;
+	padding-top: 15px;
+	color: #3F3F3F;
+	
+}
+
+a{
+	text-decoration:none;
+	color: #000;
+}
+
+.signUp-message a{
+	text-decoration: underline;
+}
+
+/*footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 90px;
+	background-color: #1ac852;
+}
+
+.copy{
+	display: inline-block;
+	width: 60%;
+	height: 100%;
+	line-height: 90px;
+	float: left;
+}
+
+.rigth{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	line-height: 90px;
+	float: right;
+}*/
+
